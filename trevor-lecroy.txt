@@ -1,0 +1,47 @@
+Codepen link: https://codepen.io/nostrovostro/pen/VwPrQdE
+
+1. What is Semantic HTML? Semantic HTML is a more explicit way of defining document elements, making HTMl documents easier to read for humans, and machines alike. 
+2. What is HTML used for? HTML is used for building out a webpage, inserting text, images, links, etc...
+3. What is an attribute and where do we put it? An attribute is a variables that an HTML tag uses. It is placed within the <> next to the tag i.e <div attribute="text">
+4. What is the h1 tag used for? How many times should I use it on a page? The H1 tag is a header tag. H1 is suppose to be more like a document title, it's the most "important" piece of information on the page, and should be used only once.
+5. Name two tags that have required attributes The IMG tag requires src
+6. What do we put in the head of our HTML document? Scripts, stylesheets, etc... are referenced in the head section
+7. What is an id? An id is an attribute that allows you to put a unique indentifier on an element.
+8. What elements can I add an id to? You can add an id to any element
+9. How many times can I use the same id on a page? once
+10. What is a class? A class is an atttribute that allows you to put a unique indentifier on an element, and as many other elements as you like.
+11. What elements can I add a class to? You can add a class to any any element
+12. How many times can I use the same class on a page? You can use the same class as many times as you'd like on a page
+13. How do I get my link to open in a new tab? adding the target attribute to an a tag, set to "_blank"
+14. What is the alt attribute in the image tag used for? Alt allows for screen readers to describe the image. 
+15. How do I reference an id? You reference an id with a #idName { }
+16. What is the difference between a section and a div A section is semantic, whilst a div is not.
+17. What is CSS used for? CSS is used for styling HTML elements, and beautifying a page.
+18. How to we select an element? Example - every h2 on the page  You would select every h2 on the page with: h2 { }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+20. How do we select classes in CSS? You select classes in CSS with .className { }
+21. How do we select a p element with a single class of “human””? .human p { }
+22. What is a parent child selector? When would this be useful? A parent child selector allows you to reach through nested elements and select a specific child element. It's useful for grabbing children of elements.
+23. How do you select all links within a div with the class of sidebar? .sidebar a { }
+24. What is a pseudo selector? Selectes elements that are in a specific state, i.e :hover
+25. What do we use the change the spacing between lines? line-height
+26. What do we use to change the spacing between letters? letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
+29. How do I select everything on the page? * { }
+30. How do I write a comment in CSS? /* */
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder? ls / dir
+33. How do I remove a file via the command line? Why do I have to be careful with this?  rm. It can run recursively, potentially bricking your system (deleting all of your files)
+34. Why should I use version control? So you can backup work, and share it with collaboraters.
+35. How often should I commit to github? About every 20-30 minutes when working.
+36. What is the command we would use to push our repo up to github? git push
+37. Walk me through Lambda's git flow. forking a repo, cloning the repo, creating a new working branch, contributing adding and commiting frequently after changes, then finally pushing to the cloud.
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+2. What happens when an element is positioned absolutely? 
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
